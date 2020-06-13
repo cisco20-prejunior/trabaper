@@ -1,0 +1,139 @@
+.contenedor{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-rows: repeat(5, auto) ;
+    grid-template-columns: 300px, 300px;
+    grid-template-areas:
+    "header                 header"
+    "faustino               julio       "
+    "agresion               ambiente    "
+    "arica                  bolognesi   "    
+    " trabajo               oceanos     "
+    "cancionAndina          alejandro   "
+    "padre                  sequia      "
+    "prada                  zela        "
+    "campesino              inti        "
+    "tortura                tropicales  "
+    "civil                  drogas      "
+    "papa                   cebiche     "
+    " olaya                  olaya      ";
+    margin:auto;
+}
+@media screen and (max-width : 600px){
+.contenedor{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-rows: repeat(22, auto) ;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header     "
+    "faustino   "
+    "julio      "         
+    "agresion   "
+    "ambiente   "
+    "arica      "
+    "bolognesi  "    
+    "trabajo    "
+    "oceanos    "
+    "cancionAndina"
+    "alejandro  "
+    "padre      "
+    "sequia     "
+    "prada      "
+    "zela       "
+    "campesino  "
+    "inti       "
+    "tortura    "
+    "tropicales "
+    "civil      "
+    "drogas     "
+    "papa       "
+    "cebiche    "
+    " olaya     ";
+    margin: auto;
+    }
+}
+/* espacios de la grid */
+.header{
+    grid-area: header;
+}
+.importante{
+    grid-area: importante;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.faustino{
+    margin-top: 6em;
+    grid-area: faustino;
+}
+.julio{
+    margin-top: 6em;
+    grid-area: julio;
+}
+.agresion{
+    grid-area: agresion;
+}
+.ambiente{
+    grid-area: ambiente;
+}
+.arica{
+    grid-area: arica;
+}
+.bolognesi{
+    grid-area: bolognesi;
+}
+.oceanos{
+    grid-area: oceanos;
+}
+.trabajo{
+    grid-area: trabajo;
+}
+.alejandro{
+    grid-area: alejandro;
+}
+.cancionAndina{
+    grid-area: cancionAndina;
+}
+.sequia{
+    grid-area: sequia;
+}
+.padre{
+    grid-area: padre;
+}
+.zela{
+    grid-area: zela;
+}
+.prada{
+    grid-area: prada;
+}
+.inti{
+    grid-area: inti;
+}
+.campesino{
+    grid-area: campesino;
+}
+.tropicales{
+    grid-area: tropicales;
+}
+.tortura{
+    grid-area: tortura;
+}
+.drogas{
+    grid-area: drogas;
+}
+.civil{
+    grid-area: civil;
+}
+.cebiche{
+    grid-area: cebiche;
+}
+.papa{
+    grid-area: papa;
+}
+.olaya{
+    grid-area: olaya;
+}
+.footer{
+    grid-area: footer;
+}

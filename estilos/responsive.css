@@ -1,0 +1,67 @@
+@media screen and (max-width : 600px){
+    body{
+        background-image: url(https://s1.1zoom.me/big3/947/Peru_Ruins_Stones_Machu_456456.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .semanas{
+        text-align: center;
+        font-size: 1em;
+    }
+    .sem{
+        padding: 0;
+        display: inline-block;
+        position: relative;
+        transition: all 300ms;
+        width: 9%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .submenu{
+        height: 0;
+        list-style: none;
+        visibility: hidden;
+        position: absolute;
+        padding: 0;
+        transition: all 100ms;
+        background-color: brown;
+        width: 0;
+        overflow: hidden;
+        width: 310%;
+    }
+    .submenu > li >a{
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    }
+    .sem1:hover .semana_uno{
+        height: 710%;
+        visibility: visible;
+    }
+    .sem2:hover .semana_dos{
+        height: 348%;
+        visibility: visible;
+    }
+    .sem3:hover .semana_tres{
+        height: 550%;
+        visibility: visible;
+    }
+    .sem4:hover .semana_cuatro {
+        height: 1100%;
+        visibility: visible;
+    }
+    .sem5:hover .semana_cinco{
+        height: 250%;
+        visibility: visible;
+    }
+    .fas{
+        transition: all ease 0.5s;
+        perspective: 1800px;
+    }.submenu > .item:hover{
+        color: black;
+    }
+    .sem:hover .fa-arrow-circle-down{
+        color: black;
+        transform: rotateZ(-180deg);
+    }
+}
