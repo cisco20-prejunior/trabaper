@@ -1,0 +1,72 @@
+.carrusel {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	border: red solid 1px;
+}
+.carruselint {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	overflow: hidden;
+	justify-content: center;
+	border: red solid 1px;
+}
+img {
+	width: 100%;
+}
+.img1 {
+	-webkit-animation: retroceder;
+	animation: retroceder;
+	-webkit-animation-duration: 0.8s;
+	animation-duration: 0.9s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+.img3 {
+	-webkit-animation: avanzar;
+	animation: avanzar;
+	-webkit-animation-duration: 0.8s;
+	animation-duration: 0.9s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+.btn {
+	font-size: 4em;
+	display: inline-block;
+	margin: auto;
+}
+@-webkit-keyframes avanzar {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+@keyframes avanzar {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+@-webkit-keyframes retroceder {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
+@keyframes retroceder {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
